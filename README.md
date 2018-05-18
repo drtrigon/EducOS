@@ -7,6 +7,7 @@ https://github.com/drtrigon/docker-arduino
   * https://github.com/Distroshare/distroshare-ubuntu-imager/blob/master/distroshare-ubuntu-imager.config
   * https://askubuntu.com/questions/342066/how-to-permanently-configure-keyboard
   * https://www.vernier.com/forums/logger-pro-linux/103-logger-pro-for-linux-for-ubuntu-12-and-labquest-2/
+  * https://travis-ci.org/drtrigon/EducOS/builds/380779245#L8895
 
 # EducOS
 Auto-Resetting Live OS for Education of Scholars in Physics
