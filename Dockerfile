@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-#FROM i386/ubuntu:14.04
+#FROM ubuntu:14.04
+FROM i386/ubuntu:14.04
 MAINTAINER DrTrigon <dr.trigon@surfeu.ch>
 
 # LABEL author.user1="DrTrigon <dr.trigon@surfeu.ch>"
@@ -37,7 +37,7 @@ RUN tar xzf v1.0.15.tar.gz
 # debug
 RUN tree
 
-RUN cd ~/distroshare-ubuntu-imager-1.0; ./distroshare-ubuntu-imager.sh
+RUN cd distroshare-ubuntu-imager-1.0; ./distroshare-ubuntu-imager.sh
 
 # debug
 RUN ls -la ~/distroshare-ubuntu-imager-1.0
