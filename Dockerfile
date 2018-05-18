@@ -6,6 +6,7 @@ MAINTAINER DrTrigon <dr.trigon@surfeu.ch>
 ## Environment Variables
 #ENV ARDUINO_VERSION 1.8.2
 ##ENV BOARD "arduino:avr:nano:cpu=atmega328"
+ARG DEBIAN_FRONTEND=noninteractive
 
 # Initial update
 RUN apt-get -y update
