@@ -5,6 +5,9 @@ https://github.com/drtrigon/docker-arduino
 ## TODO
 * TODO: ...
 
+# EducOS
+Auto-Resetting Live OS for Education of Scholars in Physics
+
 ## Examples
 ...
 
