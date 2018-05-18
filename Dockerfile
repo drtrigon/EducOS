@@ -29,8 +29,7 @@ RUN apt-get install -y tree
 # https://www.vernier.com/downloads/logger-pro-linux/
 RUN wget https://www.vernier.com/files/downloads/LPL-3846-64.tar.gz
 RUN tar xzf LPL-3846-64.tar.gz
-RUN dpkg -i vstdrivers_1.5.1.1_amd64.deb vstloggerpro_3.8.4.6_amd64.deb
-#RUN apt-get install -f
+RUN dpkg -i vstdrivers_1.5.1.1_amd64.deb vstloggerpro_3.8.4.6_amd64.deb || apt-get install -f
 
 # Install Distroshare Ubuntu Imager
 RUN wget https://github.com/Distroshare/distroshare-ubuntu-imager/archive/v1.0.15.tar.gz
