@@ -19,8 +19,8 @@ RUN apt-get install -y \
 
 RUN apt-get autoremove -y
 
-# tree
-RUN apt-get install -y tree
+## tree
+#RUN apt-get install -y tree
 
 # Install Logger Pro(R) for Linux Public Beta
 # https://www.vernier.com/downloads/logger-pro-linux/
@@ -36,8 +36,8 @@ RUN dpkg -i vstdrivers_1.5.1.1_amd64.deb vstloggerpro_3.8.4.6_amd64.deb || apt-g
 RUN wget https://github.com/Distroshare/distroshare-ubuntu-imager/archive/v1.0.15.tar.gz
 RUN tar xzf v1.0.15.tar.gz
 
-# debug
-RUN tree
+## debug
+#RUN tree
 
 RUN cd distroshare-ubuntu-imager-1.0; ./distroshare-ubuntu-imager.sh
 
