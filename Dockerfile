@@ -14,8 +14,10 @@ RUN apt-get -y update
 
 # Basic packages
 RUN apt-get install -y \
-  kubuntu-desktop \
+  lubuntu-desktop \
   wget
+
+RUN apt-get autoremove -y
 
 # tree
 RUN apt-get install -y tree
