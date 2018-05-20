@@ -38,6 +38,7 @@ RUN tar xzf v1.0.15.tar.gz
 
 ## debug
 #RUN tree
+RUN ls -la
 
 RUN cd ~/distroshare-ubuntu-imager-1.0; ./distroshare-ubuntu-imager.sh
 
