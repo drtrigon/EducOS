@@ -35,10 +35,4 @@ RUN dpkg -i vstdrivers_1.5.1.1_amd64.deb vstloggerpro_3.8.4.6_amd64.deb || apt-g
 # https://github.com/Distroshare/distroshare-ubuntu-imager
 RUN wget https://github.com/Distroshare/distroshare-ubuntu-imager/archive/v1.0.15.tar.gz
 RUN tar xzf v1.0.15.tar.gz
-
-## debug
-#RUN tree
-RUN ls -la
-RUN ls -la distroshare-ubuntu-imager-1.0.15
-
-RUN cd distroshare-ubuntu-imager-1.0.15; ./distroshare-ubuntu-imager.sh
+RUN cd distroshare-ubuntu-imager-1.0.15; sudo ./distroshare-ubuntu-imager.sh
