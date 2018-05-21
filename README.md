@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/drtrigon/EducOS.svg?branch=master)](https://travis-ci.org/drtrigon/EducOS)
 [![Image Status](https://images.microbadger.com/badges/image/drtrigon/EducOS.svg)](https://microbadger.com/images/drtrigon/EducOS)
 
 https://github.com/drtrigon/docker-arduino
